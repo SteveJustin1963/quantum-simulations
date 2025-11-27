@@ -1,4 +1,4 @@
-# Quantum Simulations  
+# Quantum Simulations Journal
 
 ## Program Overview
 
