@@ -63,10 +63,12 @@ Develop a 2D quantum simulator for sub-10-nm transistors that correctly captures
 
 ### Most Important Formulas (simplified)
 - Time-independent 2D Schrödinger with OBC:  
-  $\[-\frac{\hbar^2}{2m^*} (\partial_x^2 + \partial_y^2) \psi + V(x,y)\psi = E \psi\]$
+  $\-\frac{\hbar^2}{2m^*} (\partial_x^2 + \partial_y^2) \psi + V(x,y)\psi = E \psi\$
+
   with transparent boundary conditions via QTBM self-energies Σ_L, Σ_R.
 
 - Electron density (from all injecting states):  
+
   $\(n(x,y) = \frac{2}{2\pi} \int_{E_\text{min}}^{E_\text{max}} |\psi_E(x,y)|^2 g(E) f(E - E_F) \, dE\)$
 
 - Self-consistent loop convergence typically requires 20–100 iterations.
